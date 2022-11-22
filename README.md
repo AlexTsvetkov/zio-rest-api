@@ -124,13 +124,13 @@ docker network inspect bridge
 ```
 
 ```json lines
- "e511b6cc02e4e6e31522023d2379f3eee455801d143fe00643478406241d0899": {
-                "Name": "devdb",
-                "EndpointID": "cd1e3da5162e73fc52d81150aa139f60d7493659cb9dfbfab8d56e443018b555",
-                "MacAddress": "02:42:ac:11:00:02",
-                "IPv4Address": "172.17.0.2/16",
-                "IPv6Address": ""
-            }
+{
+  "Name": "devdb",
+  "EndpointID": "cd1e3da5162e73fc52d81150aa139f60d7493659cb9dfbfab8d56e443018b555",
+  "MacAddress": "02:42:ac:11:00:02",
+  "IPv4Address": "172.17.0.2/16",
+  "IPv6Address": ""
+}
 ```
 ![img.png](db_host_env_var.png)
 ![img.png](run_conrainer_from_image.png)
